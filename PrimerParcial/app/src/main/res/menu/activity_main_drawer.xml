@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/comida"
+            android:icon="@mipmap/comida"
+            android:title="Comida" />
+        <item
+            android:id="@+id/bebida"
+            android:icon="@mipmap/bebida"
+            android:title="Bebida" />
+        <item
+            android:id="@+id/dulce"
+            android:icon="@mipmap/antojitos"
+            android:title="Dulces regionales" />
+        <item
+            android:id="@+id/artesania"
+            android:icon="@mipmap/artesania"
+            android:title="Artesanias" />
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Share" />
+            <item
+                android:id="@+id/nav_send"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Send" />
+        </menu>
+    </item>
+
+</menu>
